@@ -1,8 +1,9 @@
 # C--Encode-and-Decode-Base64
 C# - Encode and Decode Base64 Strings
 
- public static class ExtensionMethods
- {
+# Extension
+public static class ExtensionMethods
+{
         public static string EncodeBase64(this string value)
         {
             var valueBytes = Encoding.UTF8.GetBytes(value);
@@ -14,7 +15,7 @@ C# - Encode and Decode Base64 Strings
             var valueBytes = System.Convert.FromBase64String(value);
             return Encoding.UTF8.GetString(valueBytes);
         }
-  }
+}
   
 # Usage
  
