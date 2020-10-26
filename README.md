@@ -2,6 +2,7 @@
 C# - Encode and Decode Base64 Strings
 
 # Extension
+
 public static class ExtensionMethods
 {
         public static string EncodeBase64(this string value)
